@@ -1,0 +1,14 @@
+.single-album {
+  > div {
+    width: 100%;
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: 0 0 7px 1px rgba(0,0,0,0.2);
+    margin-top: 0;
+    .album-title {
+      width: 100%;
+      background: rgba(0,0,0,0.3);
+    }
+  }
+}

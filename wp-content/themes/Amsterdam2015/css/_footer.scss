@@ -1,0 +1,32 @@
+footer.footer:before {
+	content: '';
+	box-shadow: 10px 0px 5px 5px #000 inset;
+}
+footer.footer {
+	display: block;
+	background: #1b1b1b;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	color: white;
+	font-weight: 200;
+	h3 {
+		color: $orange;
+		font-weight: 200;
+	}
+	div.footer-section {
+		height: 100%;
+	}
+	div.footer-contact {
+		background: #cccccc;
+	}
+	div.footer-social {
+		background: #4c4c4c;
+	}
+
+	form {
+		input {
+			margin-bottom: 1rem;
+		}
+	}
+}

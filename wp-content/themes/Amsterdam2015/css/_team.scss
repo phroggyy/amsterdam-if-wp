@@ -1,0 +1,19 @@
+.members {
+	.editors {
+		.editor {
+			width: 100%;
+			padding-bottom: 100%;
+		}
+	}
+  	.member {
+		width: 100%;
+		padding-bottom: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+			img {
+			  border-radius: 200px;
+			  width: 100%;
+			  z-index: 3;
+			}
+	  }
+}
