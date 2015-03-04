@@ -43,7 +43,7 @@ $journos = get_users(array('role' => 'journalist'));
 			<div class="member">
 				<img src="<?php echo $avatar; ?>">
 				<p class="member-name">
-					<?php echo $journo->display_name(); ?>
+					<?php echo $journo->display_name; ?>
 				</p>
 			</div>
 			<?php endforeach; ?>
