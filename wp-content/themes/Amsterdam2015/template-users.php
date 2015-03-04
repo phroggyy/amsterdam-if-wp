@@ -14,7 +14,7 @@ $journos = get_users(array('role' => 'journalist'));
 	<div class="container members">
 		<h1><?php echo the_title(); ?></h1>
 		<?php if (count($editors) > 0) : ?>
-		<section class="editors col-md-8 col-md-offset-2">
+		<section class="editors col-md-6 col-md-offset-3">
 			<?php foreach($editors as $editor) : $avatar = get_author_image_url($editor->ID); ?>
 				<div class="col-md-6">
 					<div class="member-pic">
@@ -28,8 +28,8 @@ $journos = get_users(array('role' => 'journalist'));
 		</section>
 		<?php endif; ?>
 		<?php if (count($EA) > 0 && count($VE) > 0) : ?>
-		<section class="ed_asses col-md-8 col-md-offset-2">
-			<?php foreach($EAs as $EdAss) : $avatar = get_author_image_url($EA[0]->ID); ?>
+		<section class="ed_asses col-md-6 col-md-offset-3">
+			<?php foreach($EAs as $EdAss) : $avatar = get_author_image_url($EdAss[0]->ID); ?>
 				<div class="col-md-6">
 					<div class="member-pic">
 						<img src="<?php echo $avatar; ?>">
@@ -44,13 +44,13 @@ $journos = get_users(array('role' => 'journalist'));
 		<?php if (count($journos) > 0) : ?>
 		<section class="journos">
 			<?php foreach($journos as $journo) : $avatar = get_author_image_url($journo->ID); ?>
-				<div class="col-md-4">
-					<div class="member">
+				<div class="col-md-3">
+					<div class="member-pic">
 						<img src="<?php echo $avatar; ?>">
-
-						<p class="member-name">
-							<?php echo $journo->display_name; ?>
-						</p></div>
+					</div>
+					<p class="member-name">
+						<?php echo $journo->display_name; ?>
+					</p>
 			</div>
 			<?php endforeach; ?>
 		</section>
