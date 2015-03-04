@@ -93,7 +93,8 @@ footer.footer {
   width: 100%;
   padding-bottom: 100%;
   margin: 0 auto;
-  overflow: hidden; }
+  overflow: hidden;
+  border-radius: 200px; }
   .members .member-pic img {
     border-radius: 200px;
     width: 100%;
