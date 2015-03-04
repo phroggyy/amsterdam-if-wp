@@ -89,12 +89,12 @@ footer.footer {
 .members .editors .editor {
   width: 100%;
   padding-bottom: 100%; }
-.members .member {
+.members .member-pic {
   width: 100%;
   padding-bottom: 100%;
   margin: 0 auto;
   overflow: hidden; }
-  .members .member img {
+  .members .member-pic img {
     border-radius: 200px;
     width: 100%;
     z-index: 3; }
