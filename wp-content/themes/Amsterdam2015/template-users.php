@@ -17,9 +17,7 @@ $journos = get_users(array('role' => 'journalist'));
 		<section class="editors col-md-6 col-md-offset-3">
 			<?php foreach($editors as $editor) : $avatar = get_author_image_url($editor->ID); ?>
 				<div class="col-md-6">
-					<div class="member-pic">
-						<img src="<?php echo $avatar; ?>">
-					</div>
+					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
 					<p class="member-name">
 						<?php echo $editor->display_name; ?>
 					</p>
@@ -31,9 +29,7 @@ $journos = get_users(array('role' => 'journalist'));
 		<section class="ed_asses col-md-6 col-md-offset-3">
 			<?php foreach($EAs as $EdAss) : $avatar = get_author_image_url($EdAss[0]->ID); ?>
 				<div class="col-md-6">
-					<div class="member-pic">
-						<img src="<?php echo $avatar; ?>">
-					</div>
+					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
 					<p class="member-name text-center">
 						<?php echo $EdAss[0]->display_name; ?>
 					</p>
@@ -45,8 +41,7 @@ $journos = get_users(array('role' => 'journalist'));
 		<section class="journos">
 			<?php foreach($journos as $journo) : $avatar = get_author_image_url($journo->ID); ?>
 				<div class="col-md-3">
-					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;">
-					</div>
+					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
 					<p class="member-name">
 						<?php echo $journo->display_name; ?>
 					</p>
