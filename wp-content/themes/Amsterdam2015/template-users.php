@@ -25,13 +25,13 @@ $journos = get_users(array('role' => 'journalist'));
 			<?php endforeach; ?>
 		</section>
 		<?php endif; ?>
-		<?php if (count($EA) > 0 && count($VE)) : ?>
+		<?php if (count($EA) > 0 && count($VE) > 0) : ?>
 		<section class="ed_asses">
-			<?php foreach($EAs as $EA) : $avatar = get_author_image_url($EA->ID); ?>
+			<?php foreach($EAs as $EdAss) : $avatar = get_author_image_url($EA[0]->ID); ?>
 			<div class="member">
 				<img src="<?php echo $avatar; ?>">
 				<p class="member-name">
-					<?php echo $EA->display_name; ?>
+					<?php echo $EdAss[0]->display_name; ?>
 				</p>
 			</div>
 			<?php endforeach; ?>
