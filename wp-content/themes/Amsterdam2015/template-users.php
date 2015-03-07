@@ -42,7 +42,7 @@ $journos = get_users(array('role' => 'journalist'));
 		<?php endif; ?>
 		<?php if (count($journos) > 0) : ?>
 		<section class="journos">
-			<?php foreach($journos as $journo) : $avatar = get_author_image_url($journo[0]->ID); ?>
+			<?php foreach($journos as $journo) : $avatar = get_author_image_url($journo->ID); ?>
 				<div class="col-md-3">
 					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
 					<p class="member-name text-center">
