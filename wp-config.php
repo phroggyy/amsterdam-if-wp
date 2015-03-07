@@ -22,7 +22,8 @@ define('DB_NAME', 'amsterdam');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+//define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'gfMqGneRoj')
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
