@@ -15,12 +15,12 @@ $journos = get_users(array('role' => 'journalist'));
 		<h1><?php echo the_title(); global $wp_roles; ?></h1>
 		<?php if (count($editors) > 0) : ?>
 		<section class="editors col-md-6 col-md-offset-3">
-			<?php foreach($editors as $editor) : $avatar = get_author_image_url($editor[0]->ID); ?>
+			<?php foreach($editors as $editor) : $avatar = get_author_image_url($editor->ID); ?>
 				<div class="col-md-6">
 					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
 					<p class="member-name text-center">
 						<?php echo $editor[0]->display_name; ?><br>
-						<?php echo $wp_roles->roles[$editor[0]->roles[0]]['name']; ?>
+						<?php echo $wp_roles->roles[$editor->roles[0]]['name']; ?>
 					</p>
 			</div>
 			<?php endforeach; ?>
@@ -47,7 +47,7 @@ $journos = get_users(array('role' => 'journalist'));
 					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
 					<p class="member-name text-center">
 						<?php echo $journo[0]->display_name; ?><br>
-						<?php echo $wp_roles->roles[$journo[0]->roles[0]]['name']; ?>
+						<?php echo $wp_roles->roles[$journo->roles[0]]['name']; ?>
 					</p>
 			</div>
 			<?php endforeach; ?>
