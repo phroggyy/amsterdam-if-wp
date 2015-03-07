@@ -45,7 +45,7 @@ task :setup => :environment do
   queue! %[mkdir -p "#{deploy_to}/shared/wp-content/uploads"]
 end
 
-desc "Rollback to previous verison."
+desc "Rollback to previous version."
 task :rollback => :environment do
   queue %[echo "----> Start to rollback"]
   queue %[if [ $(ls #{deploy_to}/releases | wc -l) -gt 1 ]; then echo "---->Relink to previous release" && unlink #{deploy_to}/current && ln -s #{deploy_to}/releases/"$(ls #{deploy_to}/releases | tail -2 | head -1)" #{deploy_to}/current && echo "Remove old releases" && rm -rf #{deploy_to}/releases/"$(ls #{deploy_to}/releases | tail -1)" && echo "$(ls #{deploy_to}/releases | tail -1)" > #{deploy_to}/last_version && echo "Done. Rollback to v$(cat #{deploy_to}/last_version)" ; else echo "No more release to rollback" ; fi]

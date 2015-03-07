@@ -12,38 +12,42 @@ $journos = get_users(array('role' => 'journalist'));
 
 <main role="main">
 	<div class="container members">
-		<h1><?php echo the_title(); ?></h1>
+		<h1><?php echo the_title(); global $wp_roles; ?></h1>
 		<?php if (count($editors) > 0) : ?>
 		<section class="editors col-md-6 col-md-offset-3">
-			<?php foreach($editors as $editor) : $avatar = get_author_image_url($editor->ID); ?>
+			<?php foreach($editors as $editor) : $avatar = get_author_image_url($editor[0]->ID); ?>
 				<div class="col-md-6">
 					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
-					<p class="member-name">
-						<?php echo $editor->display_name; ?>
+					<p class="member-name text-center">
+						<?php echo $editor[0]->display_name; ?><br>
+						<?php echo $wp_roles->roles[$editor[0]->roles[0]]['name']; ?>
 					</p>
 			</div>
 			<?php endforeach; ?>
 		</section>
 		<?php endif; ?>
 		<?php if (count($EA) > 0 && count($VE) > 0) : ?>
-		<section class="ed_asses col-md-6 col-md-offset-3">
-			<?php foreach($EAs as $EdAss) : $avatar = get_author_image_url($EdAss[0]->ID); ?>
-				<div class="col-md-6">
-					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
-					<p class="member-name text-center">
-						<?php echo $EdAss[0]->display_name; ?>
-					</p>
-			</div>
-			<?php endforeach; ?>
-		</section>
+			<section class="ed_asses col-md-6 col-md-offset-3">
+				<?php foreach($EAs as $EdAss) : $avatar = get_author_image_url($EdAss[0]->ID); ?>
+					<div class="col-md-6">
+						<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
+						<p class="member-name text-center">
+							<?php echo $EdAss[0]->display_name; ?><br>
+							<?php echo $wp_roles->roles[$EdAss[0]->roles[0]]['name']; ?>
+						</p>
+				</div>
+				<?php endforeach; ?>
+			</section>
+			<div class="clearfix"></div>
 		<?php endif; ?>
 		<?php if (count($journos) > 0) : ?>
 		<section class="journos">
-			<?php foreach($journos as $journo) : $avatar = get_author_image_url($journo->ID); ?>
+			<?php foreach($journos as $journo) : $avatar = get_author_image_url($journo[0]->ID); ?>
 				<div class="col-md-3">
 					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
-					<p class="member-name">
-						<?php echo $journo->display_name; ?>
+					<p class="member-name text-center">
+						<?php echo $journo[0]->display_name; ?><br>
+						<?php echo $wp_roles->roles[$journo[0]->roles[0]]['name']; ?>
 					</p>
 			</div>
 			<?php endforeach; ?>
