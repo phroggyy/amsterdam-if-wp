@@ -19,7 +19,7 @@ $journos = get_users(array('role' => 'journalist'));
 				<div class="col-md-6">
 					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
 					<p class="member-name text-center">
-						<?php echo $editor[0]->display_name; ?><br>
+						<?php echo $editor->display_name; ?><br>
 						<?php echo $wp_roles->roles[$editor->roles[0]]['name']; ?>
 					</p>
 			</div>
@@ -46,7 +46,7 @@ $journos = get_users(array('role' => 'journalist'));
 				<div class="col-md-3">
 					<div class="member-pic" style="background: url(<?php echo $avatar ?>); background-size: cover;"></div>
 					<p class="member-name text-center">
-						<?php echo $journo[0]->display_name; ?><br>
+						<?php echo $journo->display_name; ?><br>
 						<?php echo $wp_roles->roles[$journo->roles[0]]['name']; ?>
 					</p>
 			</div>
