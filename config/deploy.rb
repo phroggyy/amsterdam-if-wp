@@ -20,7 +20,7 @@ set :branch, 'master'
 
 # Manually create these paths in shared/ (eg: shared/config/database.yml) in your server.
 # They will be linked in the 'deploy:link_shared_paths' step.
-set :shared_paths, ['wp-content/uploads', '.htaccess']
+set :shared_paths, ['wp-content/uploads', 'wp-content/plugins', '.htaccess']
 
 # Optional settings:
     set :user, 'root'    # Username in the server to SSH to.
@@ -42,7 +42,10 @@ end
 # For Rails apps, we'll make some of the shared paths that are shared between
 # all releases.
 task :setup => :environment do
-  queue! %[mkdir -p "#{deploy_to}/shared/wp-content/uploads"]
+  queue! %[mkdir -p "#{deploy_to}/#{shared_path}/wp-content/uploads"]
+  queue! %[chmod g+rx,u+rwx "#{deploy_to}/#{shared_path}/wp-content/uploads"]
+  queue! %[mkdir -p "#{deploy_to}/shared/wp-content/plugins"]
+  queue! %[chmod g+rx,u+rwx "#{deploy_to}/#{shared_path}/wp-content/plugins"]
 end
 
 desc "Rollback to previous version."

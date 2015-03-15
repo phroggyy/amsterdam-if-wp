@@ -72,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-users.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template-users.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.423077">
+            <state vertical-scroll-proportion="0.64172816">
               <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
               <folding />
             </state>
@@ -92,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-task1.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template-task1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-task1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4625922">
+            <state vertical-scroll-proportion="-16.884615">
               <caret line="78" column="102" selection-start-line="78" selection-start-column="102" selection-end-line="78" selection-end-column="102" />
               <folding>
                 <marker date="1426443670000" expanded="true" signature="3096:3755" placeholder="..." />
@@ -699,14 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.423077">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_team.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.0">
@@ -743,12 +735,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template-task1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4625922">
+        <state vertical-scroll-proportion="-16.884615">
           <caret line="78" column="102" selection-start-line="78" selection-start-column="102" selection-end-line="78" selection-end-column="102" />
           <folding>
             <marker date="1426443670000" expanded="true" signature="3096:3755" placeholder="..." />
             <marker date="1426443670000" expanded="true" signature="3186:3610" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64172816">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
