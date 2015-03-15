@@ -4,6 +4,8 @@ Template Name: Representations page
 */
 get_header();
 
+require 'class.amsterdamAPI.php';
+
 $apiKey = 'lC7UO1LW75kSeyhaHfFB9IMnTuZPn9fdBtDTSTbcX76k1oLXdMp3ZvVFYdv5';
 $apiSecret = '1svooKg0SCigJ2pPG3RnfIWpJwlqzesiaEmV76iCnbAZwOBONOqg9JVnKQNM';
 $amsterdam = new AmsterdamAPI($apiKey, $apiSecret);
@@ -15,14 +17,56 @@ $amsterdam = new AmsterdamAPI($apiKey, $apiSecret);
   <div class="container">
       <?php if (!isset($_GET['committee'])) : ?>
           <section class="albums">
-              <?php foreach($albums as $album) { ?>
-                  <?php $bgPic = $fb->curl_get($album->cover_photo . '?fields=source'); $bgUrl = $bgPic->source; ?>
-                  <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                      <div style="background-image: url(<?php echo $bgUrl; ?>);">
-                          <h2 class="text-center album-title"><a href="?album=<?php echo $album->id; ?>"><?php echo $album->name; ?></a></h2>
-                      </div>
+              <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div>
+                      <h2 class="text-center album-title"><a href="?committee=afet">AFET</a></h2>
                   </div>
-              <?php } ?>
+              </div>
+              <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div>
+                      <h2 class="text-center album-title"><a href="?committee=agri">AGRI</a></h2>
+                  </div>
+              </div>
+              <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div>
+                      <h2 class="text-center album-title"><a href="?committee=imco">IMCO</a></h2>
+                  </div>
+              </div>
+              <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div>
+                      <h2 class="text-center album-title"><a href="?committee=inta-i">INTA I</a></h2>
+                  </div>
+              </div>
+              <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div>
+                      <h2 class="text-center album-title"><a href="?committee=inta-ii">INTA II</a></h2>
+                  </div>
+              </div>
+              <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div>
+                      <h2 class="text-center album-title"><a href="?committee=itre">ITRE</a></h2>
+                  </div>
+              </div>
+              <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div>
+                      <h2 class="text-center album-title"><a href="?committee=libe-i">LIBE I</a></h2>
+                  </div>
+              </div>
+              <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div>
+                      <h2 class="text-center album-title"><a href="?committee=libe-ii">LIBE II</a></h2>
+                  </div>
+              </div>
+              <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div>
+                      <h2 class="text-center album-title"><a href="?committee=sede-i">SEDE I</a></h2>
+                  </div>
+              </div>
+              <div class="single-album col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                  <div>
+                      <h2 class="text-center album-title"><a href="?committee=sede-ii">SEDE II</a></h2>
+                  </div>
+              </div>
           </section>
           <?php else : $representations = $amsterdam->taskOneByCommittee($_GET['committee']); dd($representations); ?>
           <section class="single-album">
