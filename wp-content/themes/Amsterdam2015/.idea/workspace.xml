@@ -22,6 +22,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.62689805">
+              <caret line="88" column="68" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="68" />
+              <folding>
+                <element signature="e#6#145#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="template-photos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-photos.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_photos.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_photos.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/_photos.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21496312">
+            <state vertical-scroll-proportion="-7.8461537">
               <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template-videos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template-videos.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="11" column="52" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -54,16 +76,6 @@
       </file>
       <file leaf-file-name="loop.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loop.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/404.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -124,9 +136,7 @@
       <list>
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/class.graphAPI.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/random.php" />
-        <option value="$PROJECT_DIR$/template-videos.php" />
         <option value="$PROJECT_DIR$/css/_general.scss" />
         <option value="$PROJECT_DIR$/template-users.php" />
         <option value="$PROJECT_DIR$/css/style.scss" />
@@ -135,6 +145,8 @@
         <option value="$PROJECT_DIR$/class.amsterdamAPI.php" />
         <option value="$PROJECT_DIR$/template-task1.php" />
         <option value="$PROJECT_DIR$/css/_photos.scss" />
+        <option value="$PROJECT_DIR$/template-videos.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
       </list>
     </option>
   </component>
@@ -251,6 +263,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../amsterdam-visualisations" />
     <property name="FullScreen" value="true" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="SearchEverywhereHistoryKey" value="functio&#9;FILE&#9;file:///Users/leosjoberg/Git/amsterdam-if-wp/wp-content/themes/Amsterdam2015/functions.php&#10;template&#9;FILE&#9;file:///Users/leosjoberg/Git/amsterdam-if-wp/wp-content/themes/Amsterdam2015/template-videos.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -629,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-videos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34153616">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp_bootstrap_navwalker.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6107383">
@@ -654,16 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#6#145#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,9 +742,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/_photos.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21496312">
+        <state vertical-scroll-proportion="-7.8461537">
           <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-videos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62689805">
+          <caret line="88" column="68" selection-start-line="88" selection-start-column="68" selection-end-line="88" selection-end-column="68" />
+          <folding>
+            <element signature="e#6#145#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
