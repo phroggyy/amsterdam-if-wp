@@ -92,25 +92,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-task1.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template-task1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-task1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35511065">
-              <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            <state vertical-scroll-proportion="-12.961538">
+              <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
               <folding>
-                <marker date="1426423041000" expanded="true" signature="3130:3634" placeholder="..." />
-                <marker date="1426423041000" expanded="true" signature="3165:3613" placeholder="..." />
+                <marker date="1426423119000" expanded="true" signature="3105:3609" placeholder="..." />
+                <marker date="1426423119000" expanded="true" signature="3140:3588" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.amsterdamAPI.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="class.amsterdamAPI.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/class.amsterdamAPI.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-              <folding />
+            <state vertical-scroll-proportion="0.7523709">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +133,8 @@
         <option value="$PROJECT_DIR$/template-photos.php" />
         <option value="$PROJECT_DIR$/css/_photos.scss" />
         <option value="$PROJECT_DIR$/css/_team.scss" />
-        <option value="$PROJECT_DIR$/class.amsterdamAPI.php" />
         <option value="$PROJECT_DIR$/template-task1.php" />
+        <option value="$PROJECT_DIR$/class.amsterdamAPI.php" />
       </list>
     </option>
   </component>
@@ -721,14 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class.amsterdamAPI.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template-users.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.423077">
@@ -739,11 +733,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template-task1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35511065">
-          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        <state vertical-scroll-proportion="-12.961538">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
           <folding>
-            <marker date="1426423041000" expanded="true" signature="3130:3634" placeholder="..." />
-            <marker date="1426423041000" expanded="true" signature="3165:3613" placeholder="..." />
+            <marker date="1426423119000" expanded="true" signature="3105:3609" placeholder="..." />
+            <marker date="1426423119000" expanded="true" signature="3140:3588" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class.amsterdamAPI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7523709">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
