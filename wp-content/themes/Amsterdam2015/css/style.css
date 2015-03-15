@@ -152,5 +152,7 @@ footer.footer {
   list-style-type: none; }
   .single-album ul li {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+    .single-album ul li img {
+      width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
