@@ -35,8 +35,6 @@ class AmsterdamAPI {
         if (count($data) > 0) {
             curl_setopt($ch,CURLOPT_POST, 1);
             curl_setopt($ch,CURLOPT_POSTFIELDS, http_build_query($data));
-            dd ($data);
-            dd ($finalUrl);
         }
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
