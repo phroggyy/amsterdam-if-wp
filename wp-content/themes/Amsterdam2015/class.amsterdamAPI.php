@@ -29,13 +29,13 @@ class AmsterdamAPI {
         $data['key'] = $this->key;
         $data['secret'] = password_hash($this->key . $this->secret, PASSWORD_BCRYPT);
         $finalUrl = $this->baseUrl . $url;
-        dd ($finalUrl);
         $ch = curl_init();
 
         curl_setopt($ch,CURLOPT_URL, $finalUrl);
         if (count($data) > 0) {
             curl_setopt($ch,CURLOPT_POST, 1);
             curl_setopt($ch,CURLOPT_POSTFIELDS, http_build_query($data));
+            dd ($finalUrl);
         }
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
