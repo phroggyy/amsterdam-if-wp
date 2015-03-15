@@ -9,26 +9,28 @@
 
 ?>
 
-<div id="bbpress-forums">
+<div class="container">
+	<div id="bbpress-forums">
 
-	<?php bbp_breadcrumb(); ?>
+		<?php bbp_breadcrumb(); ?>
 
-	<?php bbp_set_query_name( bbp_get_view_rewrite_id() ); ?>
+		<?php bbp_set_query_name(bbp_get_view_rewrite_id()); ?>
 
-	<?php if ( bbp_view_query() ) : ?>
+		<?php if (bbp_view_query()) : ?>
 
-		<?php bbp_get_template_part( 'pagination', 'topics'    ); ?>
+			<?php bbp_get_template_part('pagination', 'topics'); ?>
 
-		<?php bbp_get_template_part( 'loop',       'topics'    ); ?>
+			<?php bbp_get_template_part('loop', 'topics'); ?>
 
-		<?php bbp_get_template_part( 'pagination', 'topics'    ); ?>
+			<?php bbp_get_template_part('pagination', 'topics'); ?>
 
-	<?php else : ?>
+		<?php else : ?>
 
-		<?php bbp_get_template_part( 'feedback',   'no-topics' ); ?>
+			<?php bbp_get_template_part('feedback', 'no-topics'); ?>
 
-	<?php endif; ?>
+		<?php endif; ?>
 
-	<?php bbp_reset_query_name(); ?>
+		<?php bbp_reset_query_name(); ?>
 
+	</div>
 </div>
