@@ -8,7 +8,7 @@
 		
 		<section class="col-xs-12 col-sm-12 col-md-12 col-lg-12 articles">
 			<?php //get_template_part('loop'); ?>
-			<p>Articles coming soon!</p>
+			<h2>Articles coming soon!</h2>
 
 	</main>
 
