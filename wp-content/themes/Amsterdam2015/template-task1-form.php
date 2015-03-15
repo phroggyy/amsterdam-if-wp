@@ -1,14 +1,8 @@
 <?php
 /*
-Template Name: Representations page
+Template Name: Representations form
 */
 get_header();
-
-require 'class.amsterdamAPI.php';
-
-$apiKey = 'lC7UO1LW75kSeyhaHfFB9IMnTuZPn9fdBtDTSTbcX76k1oLXdMp3ZvVFYdv5';
-$apiSecret = '1svooKg0SCigJ2pPG3RnfIWpJwlqzesiaEmV76iCnbAZwOBONOqg9JVnKQNM';
-$amsterdam = new AmsterdamAPI($apiKey, $apiSecret);
 
 
 ?>
