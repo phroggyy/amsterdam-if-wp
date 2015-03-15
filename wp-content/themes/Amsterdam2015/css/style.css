@@ -4,13 +4,13 @@ html, body {
   overflow-x: hidden; }
 
 html {
-  background: url("img/bg.JPG");
+  background: url("../img/bg.JPG");
   background-size: cover;
   background-attachment: fixed; }
 
 body {
   background-color: rgba(44, 62, 80, 0.6);
-  background-image: url("pattern.png");
+  background-image: url("../img/pattern.png");
   background-position: center;
   background-repeat: repeat; }
 
