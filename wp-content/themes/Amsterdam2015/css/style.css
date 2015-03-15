@@ -98,6 +98,9 @@ footer.footer {
   padding-bottom: 10rem;
   background: #002966; }
 
+.forum .bbp-topic-form legend, .forum .bbp-topic-form p {
+  color: white; }
+
 .members section {
   margin-bottom: 4rem; }
 .members .member-pic {
