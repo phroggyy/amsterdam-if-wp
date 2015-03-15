@@ -148,5 +148,7 @@ footer.footer {
     width: 100%;
     background: rgba(0, 0, 0, 0.3);
     padding: 8rem 0; }
+.single-album ul {
+  list-style-type: none; }
 
 /*# sourceMappingURL=style.css.map */

@@ -38,7 +38,7 @@ $albums = $obj->data;
                     $small = $picture->images[$size-2]->source;
                     $large = $picture->images[0]->source;
                     ?>
-                    <li data-src="<?php echo $large; ?>"><img src="<?php echo $small; ?>" alt=""/></li>
+                    <li class="col-md-3 col-xs-6" data-src="<?php echo $large; ?>"><img src="<?php echo $small; ?>" alt=""/></li>
                 <?php endforeach; ?>
             </ul>
           </section>
