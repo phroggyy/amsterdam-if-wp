@@ -27,7 +27,7 @@ class AmsterdamAPI {
     private function curl($url, $data = [])
     {
         $data['key'] = $this->key;
-        $data['secret'] = bcrypt($this->key . $this->secret);
+        $data['secret'] = password_hash($this->key . $this->secret, PASSWORD_BCRYPT);
         $finalUrl = $this->baseUrl . $url;
         $ch = curl_init();
 

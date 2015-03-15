@@ -20,7 +20,7 @@ set :branch, 'master'
 
 # Manually create these paths in shared/ (eg: shared/config/database.yml) in your server.
 # They will be linked in the 'deploy:link_shared_paths' step.
-set :shared_paths, ['wp-content/uploads']
+set :shared_paths, ['wp-content/uploads', '.htaccess']
 
 # Optional settings:
     set :user, 'root'    # Username in the server to SSH to.
@@ -61,7 +61,7 @@ task :deploy => :environment do
     # invoke :'bundle:install'
     # invoke :'rails:db_migrate'
     # invoke :'rails:assets_precompile'
-    # invoke :'deploy:cleanup'
+    invoke :'deploy:cleanup'
 
     to :launch do
       queue "mkdir -p #{deploy_to}/#{current_path}/tmp/"
