@@ -68,18 +68,20 @@ $amsterdam = new AmsterdamAPI($apiKey, $apiSecret);
                   </div>
               </div>
           </section>
-          <?php else : $representations = json_decode($amsterdam->taskOneByCommittee($_GET['committee'])); dd($representations); ?>
+          <?php else : $representations = json_decode($amsterdam->taskOneByCommittee($_GET['committee'])); ?>
           <section class="single-album">
+          <?php if (sizeof($representations) > 0) : ?>
             <ul id="lightGallery">
-                <?php foreach ($pictures->data as $picture) : ?>
+                <?php foreach ($representations as $representation) : ?>
                     <?php
-                    $size = count($picture->images);
-                    $small = $picture->images[$size-2]->source;
-                    $large = $picture->images[0]->source;
+                    $src = 'http://task1.apps.tandem15.eu/uploads/' . $representation->representation;
                     ?>
-                    <li data-src="<?php echo $large; ?>"><img src="<?php echo $small; ?>" alt=""/></li>
+                    <li data-src="<?php echo $src; ?>"><img src="<?php echo $src; ?>" alt=""/></li>
                 <?php endforeach; ?>
             </ul>
+              <?php else : ?>
+              <p>Unfortunately, there seems to be nothing here!</p>
+          <?php endif; ?>
           </section>
       <?php endif; ?>
   </div>

@@ -95,11 +95,11 @@
       <file leaf-file-name="template-task1.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-task1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35511065">
-              <caret line="70" column="125" selection-start-line="70" selection-start-column="125" selection-end-line="70" selection-end-column="125" />
+            <state vertical-scroll-proportion="0.39093783">
+              <caret line="76" column="102" selection-start-line="76" selection-start-column="102" selection-end-line="76" selection-end-column="102" />
               <folding>
-                <marker date="1426423608000" expanded="true" signature="3118:3622" placeholder="..." />
-                <marker date="1426423608000" expanded="true" signature="3153:3601" placeholder="..." />
+                <marker date="1426443495000" expanded="true" signature="3096:3711" placeholder="..." />
+                <marker date="1426443495000" expanded="true" signature="3186:3566" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -248,7 +248,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../eyp_db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../amsterdam-visualisations" />
     <property name="FullScreen" value="true" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
@@ -743,11 +743,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template-task1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35511065">
-          <caret line="70" column="125" selection-start-line="70" selection-start-column="125" selection-end-line="70" selection-end-column="125" />
+        <state vertical-scroll-proportion="0.39093783">
+          <caret line="76" column="102" selection-start-line="76" selection-start-column="102" selection-end-line="76" selection-end-column="102" />
           <folding>
-            <marker date="1426423608000" expanded="true" signature="3118:3622" placeholder="..." />
-            <marker date="1426423608000" expanded="true" signature="3153:3601" placeholder="..." />
+            <marker date="1426443495000" expanded="true" signature="3096:3711" placeholder="..." />
+            <marker date="1426443495000" expanded="true" signature="3186:3566" placeholder="..." />
           </folding>
         </state>
       </provider>
