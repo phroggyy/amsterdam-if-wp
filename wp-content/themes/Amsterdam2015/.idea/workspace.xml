@@ -96,10 +96,10 @@
         <entry file="file://$PROJECT_DIR$/template-task1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.28345627">
-              <caret line="78" column="146" selection-start-line="78" selection-start-column="146" selection-end-line="78" selection-end-column="146" />
+              <caret line="78" column="136" selection-start-line="78" selection-start-column="136" selection-end-line="78" selection-end-column="136" />
               <folding>
-                <marker date="1426445616000" expanded="true" signature="3096:3865" placeholder="..." />
-                <marker date="1426445616000" expanded="true" signature="3186:3720" placeholder="..." />
+                <marker date="1426445767000" expanded="true" signature="3096:3868" placeholder="..." />
+                <marker date="1426445767000" expanded="true" signature="3186:3723" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -744,10 +744,10 @@
     <entry file="file://$PROJECT_DIR$/template-task1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28345627">
-          <caret line="78" column="146" selection-start-line="78" selection-start-column="146" selection-end-line="78" selection-end-column="146" />
+          <caret line="78" column="136" selection-start-line="78" selection-start-column="136" selection-end-line="78" selection-end-column="136" />
           <folding>
-            <marker date="1426445616000" expanded="true" signature="3096:3865" placeholder="..." />
-            <marker date="1426445616000" expanded="true" signature="3186:3720" placeholder="..." />
+            <marker date="1426445767000" expanded="true" signature="3096:3868" placeholder="..." />
+            <marker date="1426445767000" expanded="true" signature="3186:3723" placeholder="..." />
           </folding>
         </state>
       </provider>
