@@ -92,24 +92,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-task1.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template-task1.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template-task1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
-              <caret line="66" column="85" selection-start-line="66" selection-start-column="85" selection-end-line="66" selection-end-column="85" />
-              <folding />
+            <state vertical-scroll-proportion="0.71654373">
+              <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+              <folding>
+                <marker date="1426422965000" expanded="true" signature="3130:3634" placeholder="..." />
+                <marker date="1426422965000" expanded="true" signature="3165:3613" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="class.amsterdamAPI.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="class.amsterdamAPI.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/class.amsterdamAPI.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.113804">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-              <folding>
-                <element signature="e#6#90#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,8 +131,8 @@
         <option value="$PROJECT_DIR$/template-photos.php" />
         <option value="$PROJECT_DIR$/css/_photos.scss" />
         <option value="$PROJECT_DIR$/css/_team.scss" />
-        <option value="$PROJECT_DIR$/template-task1.php" />
         <option value="$PROJECT_DIR$/class.amsterdamAPI.php" />
+        <option value="$PROJECT_DIR$/template-task1.php" />
       </list>
     </option>
   </component>
@@ -688,22 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-task1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
-          <caret line="66" column="85" selection-start-line="66" selection-start-column="85" selection-end-line="66" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.423077">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -738,10 +723,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class.amsterdamAPI.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.113804">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.423077">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template-task1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71654373">
+          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
           <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
+            <marker date="1426422965000" expanded="true" signature="3130:3634" placeholder="..." />
+            <marker date="1426422965000" expanded="true" signature="3165:3613" placeholder="..." />
           </folding>
         </state>
       </provider>
