@@ -68,7 +68,7 @@ $amsterdam = new AmsterdamAPI($apiKey, $apiSecret);
                   </div>
               </div>
           </section>
-          <?php else : $representations = $amsterdam->taskOneByCommittee($_GET['committee']); dd($representations); ?>
+          <?php else : $representations = json_decode($amsterdam->taskOneByCommittee($_GET['committee'])); dd($representations); ?>
           <section class="single-album">
             <ul id="lightGallery">
                 <?php foreach ($pictures->data as $picture) : ?>
