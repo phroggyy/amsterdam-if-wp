@@ -86,7 +86,7 @@ function html5blank_nav()
 		'container_class' => 'collapse navbar-collapse',
 		'container_id'    => 'bs-example-navbar-collapse-1',
 		'menu_class'      => 'nav navbar-nav',
-        'items_wrap'      => '<ul id="%1$s" class="%2$s"><li class="logo"><a href="/"><img src="img/logo.png" alt="" ></a></li>%3$s</ul>',
+        'items_wrap'      => '<ul id="%1$s" class="%2$s"><li class="logo"><a href="/"><img src="/wp-content/themes/Amsterdam2015/img/logo.png" alt="" ></a></li>%3$s</ul>',
 		'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
 		'depth'           => 2,
 		'walker'          => new wp_bootstrap_navwalker()
