@@ -76,7 +76,7 @@ $amsterdam = new AmsterdamAPI($apiKey, $apiSecret);
                     <?php
                     $src = 'http://task1.apps.tandem15.eu/uploads/' . $representation->representation;
                     ?>
-                    <li class="col-xs-6 col-md-3" data-src="<?php echo $src; ?>"><img class="col-xs-12" src="<?php echo $src; ?>" alt=""/></li>
+                    <li class="col-xs-6 col-md-3" data-sub-html="<p><em>By <? echo $representation->first_name . ' ' . $representation->last_name; ?></em></p>" data-src="<?php echo $src; ?>"><img class="col-xs-12" src="<?php echo $src; ?>" alt=""/></li>
                 <?php endforeach; ?>
             </ul>
               <?php else : ?>
