@@ -57,7 +57,7 @@ class AmsterdamAPI {
     /* Methods for retrieving material from task 1 */
     public function taskOneByCommittee($committee)
     {
-        return $this->curl('task1/' . $committee);
+        return $this->curl('task1/committee/' . $committee);
     }
 
     /* Methods for retrieving tickets */
