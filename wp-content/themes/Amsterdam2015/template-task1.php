@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Photos page
+Template Name: Representations page
 */
 get_header();
 
