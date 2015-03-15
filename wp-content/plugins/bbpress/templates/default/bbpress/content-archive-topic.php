@@ -9,7 +9,6 @@
 
 ?>
 
-<div class="container">
 	<div id="bbpress-forums">
 
 		<?php if (bbp_allow_search()) : ?>
@@ -45,4 +44,3 @@
 		<?php do_action('bbp_template_after_topics_index'); ?>
 
 	</div>
-</div>

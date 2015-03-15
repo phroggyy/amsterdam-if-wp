@@ -9,7 +9,6 @@
 
 ?>
 
-<div class="container">
 	<div id="bbpress-forums">
 
 		<?php bbp_breadcrumb(); ?>
@@ -33,4 +32,3 @@
 		<?php bbp_reset_query_name(); ?>
 
 	</div>
-</div>

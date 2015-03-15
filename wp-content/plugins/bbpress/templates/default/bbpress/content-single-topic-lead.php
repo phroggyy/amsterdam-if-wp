@@ -11,7 +11,6 @@
 
 <?php do_action( 'bbp_template_before_lead_topic' ); ?>
 
-<div class="container">
 	<ul id="bbp-topic-<?php bbp_topic_id(); ?>-lead" class="bbp-lead-topic">
 
 		<li class="bbp-header">

@@ -9,7 +9,6 @@
 
 ?>
 
-<div class="container">
 	<div id="bbpress-forums">
 
 		<?php bbp_breadcrumb(); ?>
@@ -23,4 +22,3 @@
 		<?php do_action('bbp_template_after_topic_tag_edit'); ?>
 
 	</div>
-</div>

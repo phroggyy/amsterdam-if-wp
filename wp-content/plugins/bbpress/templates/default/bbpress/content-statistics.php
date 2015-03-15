@@ -10,7 +10,6 @@
 // Get the statistics
 $stats = bbp_get_statistics(); ?>
 
-	<div class="container">
 		<dl role="main">
 
 			<?php do_action('bbp_before_statistics'); ?>
@@ -76,6 +75,5 @@ $stats = bbp_get_statistics(); ?>
 			<?php do_action('bbp_after_statistics'); ?>
 
 		</dl>
-	</div>
 
 <?php unset( $stats );
