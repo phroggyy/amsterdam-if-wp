@@ -78,6 +78,7 @@ $amsterdam = new AmsterdamAPI($apiKey, $apiSecret);
                     ?>
                     <li class="col-xs-6 col-md-3" data-sub-html="<p><em>By <?php echo $representation->first_name . ' ' . $representation->last_name; ?></em></p>" data-src="<?php echo $src; ?>"><img class="col-xs-12" src="<?php echo $src; ?>" alt=""/></li>
                 <?php endforeach; ?>
+                <li class="col-xs-6 col-md-3"><a href="http://task1.apps.tandem15.eu">Add another one</a></li>
             </ul>
               <?php else : ?>
               <p>Unfortunately, there seems to be nothing here!</p>
