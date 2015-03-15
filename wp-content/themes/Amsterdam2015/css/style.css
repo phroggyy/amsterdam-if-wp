@@ -110,6 +110,8 @@ footer.footer {
     border-radius: 200px;
     width: 100%;
     z-index: 3; }
+.members .member-name {
+  color: white; }
 
 .videos h1 {
   text-align: center;
