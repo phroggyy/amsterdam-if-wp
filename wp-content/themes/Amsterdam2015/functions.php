@@ -4,8 +4,8 @@
  *  URL: html5blank.com | @html5blank
  *  Custom functions, support, custom post types and more.
  */
-error_reporting(-1);
-ini_set('display_errors', 'On');
+//error_reporting(-1);
+//ini_set('display_errors', 'On');
 
 /*------------------------------------*\
 	Custom functions
