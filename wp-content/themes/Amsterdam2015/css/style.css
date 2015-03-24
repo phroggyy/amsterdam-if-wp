@@ -113,6 +113,11 @@ footer.footer {
 
 .forum .bbp-topic-form legend, .forum .bbp-topic-form p {
   color: white; }
+.forum .bbp-forum-title {
+  font-size: 1.8rem; }
+.forum .bbp-breadcrumb {
+  padding: 1rem;
+  background: #ffffff; }
 
 .members section {
   margin-bottom: 4rem; }
