@@ -6,7 +6,7 @@ require 'auth_vimeo.php';
 
 // We fetch the latest video uploaded by a user
 // CHANGE TO FETCH FROM ALBUM
-$response = $vimeo->request('/users/23320497/videos', array('per_page' => 1), 'GET');
+$response = $vimeo->request('/users/tandem15/videos', array('per_page' => 1), 'GET');
 $data = $response['body']['data'][0];	//Since we're only fetching one video anyway, we can just pop that array straight into our data variable
 $url = $data['link'];	//Simply fetching the URL of the video, for embedding purposes
 

@@ -9,7 +9,7 @@ require 'auth_vimeo.php';
 	<div class="container videos">
 		<h1><?php echo the_title(); ?></h1>
 		<?php
-		$response = $vimeo->request('/users/23320497/videos', 'GET');
+		$response = $vimeo->request('/users/tandem15/videos', 'GET');
 		$videos = $response['body']['data'];
 
 		// cURL helper function
