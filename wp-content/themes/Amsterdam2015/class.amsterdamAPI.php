@@ -26,8 +26,8 @@ class AmsterdamAPI {
 
     private function curl($url, $data = [])
     {
-        $data['key'] = $this->key;
-        $data['secret'] = password_hash($this->key . $this->secret, PASSWORD_BCRYPT);
+        //$data['key'] = $this->key;
+        //$data['secret'] = password_hash($this->key . $this->secret, PASSWORD_BCRYPT);
         $finalUrl = $this->baseUrl . $url;
         $ch = curl_init();
 
@@ -58,6 +58,18 @@ class AmsterdamAPI {
     public function taskOneByCommittee($committee)
     {
         return $this->curl('task1/committee/' . $committee);
+    }
+
+    /* Methods for retrieving material from task 3 */
+
+    public function committees()
+    {
+        return json_decode($this->curl('task3'));
+    }
+
+    public function TaskThreeByCommittee($id)
+    {
+        return $this->curl('task3/' . $id);
     }
 
     /* Methods for retrieving tickets */
