@@ -1,0 +1,77 @@
+.feed {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
+  .feed p, .feed a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300; }
+  .feed a {
+    color: #4099ff; }
+  .feed .tweet {
+    width: 40%;
+    background: white;
+    margin: 1rem;
+    padding: 2rem;
+    padding-bottom: 0; }
+    .feed .tweet .tile-head {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      color: #787878; }
+      .feed .tweet .tile-head p {
+        font-size: 1rem; }
+    .feed .tweet .tile-foot {
+      width: 100%;
+      text-align: right;
+      padding-bottom: 1rem; }
+      .feed .tweet .tile-foot a {
+        margin-left: 0.2rem;
+        color: #ccc; }
+      .feed .tweet .tile-foot a:hover {
+        color: #4099ff; }
+    .feed .tweet .content {
+      -webkit-hyphens: auto;
+         -moz-hyphens: auto;
+          -ms-hyphens: auto;
+              hyphens: auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .feed .tweet .content p {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        font-size: 1.2rem; }
+      .feed .tweet .content img {
+        max-width: 50%; }
+    .feed .tweet .user {
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 5rem 0;
+      margin: 2rem 3rem;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .feed .tweet .user a {
+        margin-left: 0.1rem; }
+      .feed .tweet .user .twitpic {
+        border-radius: 200px; }
