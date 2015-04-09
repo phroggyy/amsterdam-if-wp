@@ -148,7 +148,7 @@ function html5blank_styles()
     wp_register_style('lightGallery', get_template_directory_uri() . '/css/lightGallery.css', array(), '1.0', 'all');
     wp_enqueue_style('lightGallery'); // Enqueue it!
 
-    if (is_page('livefeed.php')) {
+    if (is_page_template('livefeed.php')) {
         wp_register_style('livefeed', get_template_directory_uri() . '/css/live.css', array('jquery'), '1.0.0'); // Conditional script(s)
         wp_enqueue_style('livefeed'); // Enqueue it!
     }
