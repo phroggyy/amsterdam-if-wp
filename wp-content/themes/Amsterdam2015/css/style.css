@@ -36,6 +36,9 @@ main[role="main"] {
 .container {
   margin-top: 10rem; }
 
+.attachment-post-thumbnail {
+  width: 100%; }
+
 .navbar {
   border: 0;
   background: rgba(0, 0, 0, 0.8); }
