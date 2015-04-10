@@ -32,8 +32,10 @@
 				<!-- /post details -->
 
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2"><?php the_content(); // Dynamic Content ?></div>
-					<p><em><?php _e('This post was written by ', 'html5blank'); the_author(); ?></em></p>
+					<div class="col-md-8 col-md-offset-2">
+						<?php the_content(); // Dynamic Content ?>
+						<p><em><?php _e('This post was written by ', 'html5blank'); the_author(); ?></em></p>
+					</div>
 				</div>
 
 
