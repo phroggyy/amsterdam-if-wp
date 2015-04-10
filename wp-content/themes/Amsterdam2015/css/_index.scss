@@ -1,4 +1,5 @@
 .fp-video {
+  	margin-top: 1rem; 
 	height: $cinema * 1vw; //This gives a nice 2.35:1 aspect ratio
 	background: $burgundy;	//we give it a background so that it's visible during prototyping
 	padding: 0;
