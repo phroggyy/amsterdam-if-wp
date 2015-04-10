@@ -33,7 +33,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#">Title</a>
+				<a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#"><?php bloginfo('name'); ?></a>
 			</div>
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
 				<?php html5blank_nav(); ?>
