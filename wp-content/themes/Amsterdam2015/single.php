@@ -33,11 +33,9 @@
 
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2"><?php the_content(); // Dynamic Content ?></div>
-				</div>
-
-				<div class="row">
 					<p><em><?php _e('This post was written by ', 'html5blank'); the_author(); ?></em></p>
 				</div>
+
 
 				<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
 
