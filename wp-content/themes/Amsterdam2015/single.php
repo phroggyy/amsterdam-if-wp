@@ -31,9 +31,13 @@
 <!--				<span class="comments">--><?php //if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?><!--</span>-->
 				<!-- /post details -->
 
-				<div class="col-md-8 col-md-offset-2"><?php the_content(); // Dynamic Content ?></div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2"><?php the_content(); // Dynamic Content ?></div>
+				</div>
 
-				<p><?php _e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
+				<div class="row">
+					<p><em><?php _e('This post was written by ', 'html5blank'); the_author(); ?></em></p>
+				</div>
 
 				<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
 
