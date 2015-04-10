@@ -20,18 +20,18 @@
 				<!-- /post thumbnail -->
 
 				<!-- post title -->
-				<h1>
-					<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-				</h1>
-				<!-- /post title -->
-
-				<!-- post details -->
-				<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-<!--				<span class="author">--><?php //_e( 'Published by', 'html5blank' ); ?><!-- --><?php //the_author_posts_link(); ?><!--</span>-->
-<!--				<span class="comments">--><?php //if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?><!--</span>-->
-				<!-- /post details -->
 
 				<div class="row">
+					<h1>
+						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+					</h1>
+					<!-- /post title -->
+
+					<!-- post details -->
+					<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
+	<!--				<span class="author">--><?php //_e( 'Published by', 'html5blank' ); ?><!-- --><?php //the_author_posts_link(); ?><!--</span>-->
+	<!--				<span class="comments">--><?php //if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?><!--</span>-->
+					<!-- /post details -->
 					<div class="col-md-8 col-md-offset-2">
 						<?php the_content(); // Dynamic Content ?>
 						<p><em><?php _e('This post was written by ', 'html5blank'); the_author(); ?></em></p>
