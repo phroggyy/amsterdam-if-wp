@@ -11,7 +11,7 @@
 	<article id="post-<?php the_ID(); ?>" <?php post_class('col-xs-12 col-sm-6 col-md-4 col-lg-3 article-mini'); ?>>
 
 		<!-- post title -->
-		<h2 <?php if (!is_null($thumb_url)) : ?> style="background: rgba(0,0,0,0.3), url(<?php echo $thumb_url; ?>); background-size: cover; background-repeat: no-repeat;" <?php endif; ?>>
+		<h2 <?php if (!is_null($thumb_url)) : ?> style="background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(<?php echo $thumb_url; ?>); background-size: cover; background-repeat: no-repeat;" <?php endif; ?>>
 			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 		</h2>
 		<!-- /post title -->
