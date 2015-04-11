@@ -3,6 +3,9 @@ html, body {
   max-width: 100%;
   overflow-x: hidden; }
 
+p, a, span, div {
+  font-size: 1.4rem; }
+
 div#root {
   width: 100%;
   height: 100%;
@@ -191,6 +194,8 @@ footer.footer {
     width: 100%;
     background: rgba(0, 0, 0, 0.3);
     padding: 8rem 0; }
+    .single-album > div .album-title a {
+      color: white; }
 .single-album ul {
   list-style-type: none; }
   .single-album ul li {
