@@ -6,9 +6,6 @@
  */
 //error_reporting(-1);
 //ini_set('display_errors', 'On');
-ini_set( 'upload_max_size' , '64M' );
-ini_set( 'post_max_size', '64M');
-ini_set( 'max_execution_time', '300' );
 /*------------------------------------*\
 	Custom functions
 \*------------------------------------*/
