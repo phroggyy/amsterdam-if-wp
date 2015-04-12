@@ -3,7 +3,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden; }
 
-p, span, div {
+p, div {
   font-size: 1.4rem; }
 
 div#root {
