@@ -7,7 +7,7 @@ get_header();
 
 <main role="main">
     <div class="container">
-        <h1><?php the_title(); ?></h1>
+        <h1><?php echo the_title(); ?></h1>
         <?php if (date() < date('2015-04-15 11:00:00')) :; ?>
             <iframe src="http://webcolleges.uva.nl/Mediasite/Play/26ebeb816f654bf1acf570fca1bc75261d" width="1280" height="720" frameborder="0"></iframe>
         <?php elseif(date() < date('2015-04-15 13:35:00')) : ?>
